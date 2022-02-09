@@ -36,7 +36,7 @@ function calculateSum(dob){
 }
 
 function compareValues(sum, luckyNumber){
- 
+  // if(luckyNumber.value==null){outputBox.innerText="Lucky Number cannot be empty!"}
   if(sum%luckyNumber.value===0){outputBox.innerText="Your Birthday is Lucky!!"}
   else{
     outputBox.innerText="Sad, your birthday is not lucky!!";
